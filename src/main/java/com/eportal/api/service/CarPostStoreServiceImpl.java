@@ -25,7 +25,7 @@ public class CarPostStoreServiceImpl implements CarPostStoreService{
 	}
 
 	@Override
-	public void remove(String id) {
+	public void removeCarForSale(String id) {
 		carPostStoreClient.deleteCarForSaleClient(id);
 		
 	}
